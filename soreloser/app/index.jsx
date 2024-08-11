@@ -25,6 +25,9 @@ export default function SoreLoser() {
           LOSER
         </Text>
       </Text>
+      <Text style={{ fontSize: 5 }}>
+        <Text>------------------</Text>
+      </Text>
       <TouchableOpacity
         style={{
           paddingHorizontal: 10,
@@ -32,7 +35,13 @@ export default function SoreLoser() {
           borderRadius: 5,
         }}
       >
-        <Text style={{ color: 'white', fontSize: 20, fontWeight: '200' }}>
+        <Text
+          style={{
+            color: 'white',
+            fontSize: 15,
+            fontWeight: '200',
+          }}
+        >
           I am ready to lose!{' '}
           <Text
             style={{ color: 'red', fontStyle: 'italic', fontWeight: 'bold' }}
