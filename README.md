@@ -1,2 +1,2 @@
 # soreloser
-You a sore loser? Or nor?
+You a sore loser? Or not?
