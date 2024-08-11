@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   WelcomeText: {
-    color: '#fff',
+    color: 'red',
     fontSize: 16,
     textAlign: 'center',
   },
