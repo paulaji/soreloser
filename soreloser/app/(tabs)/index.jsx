@@ -1,10 +1,4 @@
-import { Image, StyleSheet, Platform } from 'react-native';
-
-import { HelloWave } from '@/components/HelloWave';
-import ParallaxScrollView from '@/components/ParallaxScrollView';
-import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
-import { View } from 'react-native-reanimated/lib/typescript/Animated';
+import { Image, StyleSheet, Platform, Text, View } from 'react-native';
 
 export default function HomeScreen() {
   return (
@@ -48,9 +42,9 @@ export default function HomeScreen() {
     //     </ThemedText>
     //   </ThemedView>
     // </ParallaxScrollView>
-    <ThemedView>
-      <Text>Hello</Text>
-    </ThemedView>
+    <View>
+      <Text style={styles.WelcomeText}>Hello</Text>
+    </View>
   );
 }
 
@@ -59,6 +53,10 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: 8,
+  },
+  WelcomeText:{
+    color: '#fff',
+    fontSize: 16
   },
   stepContainer: {
     gap: 8,
