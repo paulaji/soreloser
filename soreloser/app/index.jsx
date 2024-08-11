@@ -27,13 +27,12 @@ export default function SoreLoser() {
       </Text>
       <TouchableOpacity
         style={{
-          backgroundColor: 'white',
           paddingHorizontal: 10,
           paddingVertical: 10,
           borderRadius: 5,
         }}
       >
-        <Text style={{ color: 'black', fontSize: 20 }}>
+        <Text style={{ color: 'white', fontSize: 20, fontWeight: '200' }}>
           I am ready to lose!{' '}
           <Text
             style={{ color: 'red', fontStyle: 'italic', fontWeight: 'bold' }}
