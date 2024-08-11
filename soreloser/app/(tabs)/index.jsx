@@ -42,7 +42,7 @@ export default function HomeScreen() {
     //     </ThemedText>
     //   </ThemedView>
     // </ParallaxScrollView>
-    <View>
+    <View style={styles.titleContainer}>
       <Text style={styles.WelcomeText}>Hello</Text>
     </View>
   );
@@ -51,12 +51,14 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   titleContainer: {
     flexDirection: 'row',
+    justifyContent: 'center',
     alignItems: 'center',
-    gap: 8,
+    flex: 1
   },
   WelcomeText:{
     color: '#fff',
-    fontSize: 16
+    fontSize: 16,
+    textAlign: 'center'
   },
   stepContainer: {
     gap: 8,
