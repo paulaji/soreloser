@@ -2,9 +2,9 @@ import { StyleSheet, Image, Platform, View, Text } from 'react-native';
 
 export default function SoreLoser() {
   return (
-  <View style={styles.titleContainer}>
-    <Text style={styles.welcomeText}>Sugham Veno</Text>
-  </View>
+    <View style={styles.titleContainer}>
+      <Text style={styles.welcomeText}>Sore LOSER!</Text>
+    </View>
   );
 }
 
@@ -13,11 +13,11 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    flex: 1
+    flex: 1,
   },
   welcomeText: {
     color: 'green',
     fontSize: 22,
-    fontWeight: 'bold'
-  }
+    fontWeight: 'bold',
+  },
 });
